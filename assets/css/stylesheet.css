@@ -1,0 +1,61 @@
+
+
+/*The below line changes the header*/
+h1 {
+  text-align: left;
+  font-size: 1em;
+  color: #009;
+  margin-bottom: 2em;
+  text-decoration: underline;
+}
+
+h2{
+    font-size: 2em;
+    color: #055;
+}
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background-color: var(--bg-color);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+li{
+    list-style-type: none;
+    display: inline;
+    top: 10;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+
+}
+
+.burger-menu {
+  color: var(--primary-color);
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+
+/*The below line changes the background color*/
+
+/*
+ * body {
+  background-color: lightgoldenrodyellow;
+}
+*/
+
+
+/*modified the content inside mydiv*/
+.myDiv{
+    font-size: 3em;
+    color: #055;
+
+}
